@@ -1,0 +1,88 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'mongoost' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'mongoost', null ]
+6 verbose cache add name=undefined spec="mongoost" args=["mongoost",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'mongoost',
+7 verbose parsed url   path: 'mongoost',
+7 verbose parsed url   href: 'mongoost' }
+8 silly lockFile 7fc92709-mongoost mongoost
+9 verbose lock mongoost C:\Users\mwjtech\AppData\Roaming\npm-cache\7fc92709-mongoost.lock
+10 silly lockFile 7fc92709-mongoost mongoost
+11 silly lockFile 7fc92709-mongoost mongoost
+12 verbose addNamed [ 'mongoost', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 9b678b5a-mongoost mongoost@
+15 verbose lock mongoost@ C:\Users\mwjtech\AppData\Roaming\npm-cache\9b678b5a-mongoost.lock
+16 silly addNameRange { name: 'mongoost', range: '*', hasData: false }
+17 verbose request where is /mongoost
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 8ae33a3622d4ddaf
+20 verbose url raw /mongoost
+21 verbose url resolving [ 'https://registry.npmjs.org/', './mongoost' ]
+22 verbose url resolved https://registry.npmjs.org/mongoost
+23 verbose request where is https://registry.npmjs.org/mongoost
+24 info trying registry request attempt 1 at 10:56:12
+25 http GET https://registry.npmjs.org/mongoost
+26 http 404 https://registry.npmjs.org/mongoost
+27 verbose headers { date: 'Thu, 02 Oct 2014 17:56:14 GMT',
+27 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'cache-control': 'max-age=0',
+27 verbose headers   'content-length': '52',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   'x-served-by': 'cache-sjc3134-SJC',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1412272574.520439,VS0,VE34',
+27 verbose headers   'keep-alive': 'timeout=10, max=50',
+27 verbose headers   connection: 'Keep-Alive' }
+28 silly registry.get cb [ 404,
+28 silly registry.get   { date: 'Thu, 02 Oct 2014 17:56:14 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '52',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-sjc3134-SJC',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1412272574.520439,VS0,VE34',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly lockFile 9b678b5a-mongoost mongoost@
+30 silly lockFile 9b678b5a-mongoost mongoost@
+31 error 404 404 Not Found: mongoost
+31 error 404
+31 error 404 'mongoost' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404 It was specified as a dependency of 'flapper-news'
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Windows_NT 6.2.9200
+33 error command "c:\\Program Files (x86)\\nodejs\\node.exe" "c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "mongoost"
+34 error cwd c:\Users\mwjtech\.repos\reddit-clone\flapper-news
+35 error node -v v0.10.32
+36 error npm -v 1.4.28
+37 error code E404
+38 verbose exit [ 1, true ]
